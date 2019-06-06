@@ -1,4 +1,14 @@
-#xyz {
-    display: flex;
-    
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  align-items: start;
+  justify-items: center;
+}
+.grid div {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  background-color: goldenrod;
+  text-align: center;
+  padding: 25px;
 }
