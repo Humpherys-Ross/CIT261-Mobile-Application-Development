@@ -9,14 +9,6 @@
   border-radius: 3px;
   flex: 1;
 }
-.Input {
-  display: flex;
-  justify-content: flex-start;
-}
-.Input > input > div {
-  justify-items: flex-end;
-  padding: 0.3em;
-}
 .different {
   border: 5px solid orange;
   background: gold;

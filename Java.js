@@ -1,5 +1,5 @@
 $(function() {
-  $("div").click(function() {
+  $(".Shelf").click(function() {
     $(this).toggleClass("different");
   });
 });
