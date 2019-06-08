@@ -1,2 +1,5 @@
-var PN;
-function ProductNumber() {}
+$(function() {
+  $("div").click(function() {
+    $(this).toggleClass("different");
+  });
+});
