@@ -1,5 +1,6 @@
 .Shelf {
   display: flex;
+  justify-content: center;
 }
 .Shelf > div {
   font-size: 4vh;
@@ -9,9 +10,10 @@
   border-radius: 3px;
   flex: 1;
 }
-.minus {
+.Empty {
   background: red;
+  
 }
-.plus {
+.Full {
   background: blue;
 }
