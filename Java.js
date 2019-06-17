@@ -14,16 +14,11 @@ var productArray = [
 
 var targetId = "board-container";
 
-/* <div>
-<button onclick="RmvPrd()" class="fas fa-minus"></button>
-<div id="Pos1"></div>
-</div> */
-
 var boardContainer = document.getElementById("board-container");
 
 productArray.forEach( (value, i, a) => {
   var shelfItem = document.createElement("div");
-  shelfItem.className = "fas fa-red"
+  shelfItem.className = "shelf"
   shelfItem.setAttribute("count", "0")
   
   var button = document.createElement("button");
@@ -36,7 +31,7 @@ productArray.forEach( (value, i, a) => {
 
      console.log(`count for ${value} set to ${count}`);
 
-    if(count > 0) shelfItem.className = "fas fa-green";
+    if(count > 0) shelfItem.className = "notfull";
   };
   button.className = "fas fa-minus"
 
