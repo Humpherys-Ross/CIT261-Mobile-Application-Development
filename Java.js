@@ -11,6 +11,22 @@ var productArray = [
   "Tomatoes"
 ];
 
+/*
+var productArray = [
+  "Eggs",
+  "Cheese",
+  "Milk",
+  "Bread",
+  "Cereal",
+  "Chocolate",
+  "Ham",
+  "ChexMix",
+  "Oranges",
+  "Tomatoes"
+];
+*/
+
+var myJSON = JSON.stringify(productArray);
 
 var targetId = "board-container";
 
