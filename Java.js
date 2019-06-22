@@ -42,8 +42,8 @@ var bay = s1,
   s2,
   s3;
 
-for (s in obj.shelf) {
-  x += obj.shelf[s];
+for (value in obj.shelf) {
+  x += obj.shelf[value];
   for (p in obj1.pos) {
     x += obj1.pos[p];
   }
