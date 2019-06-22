@@ -1,14 +1,59 @@
 {
-    "Shelf1": {
-        "Position 1": "MRLB KING BOX",
-        "Position 2": "MRLB KING BOX",
-        "Position 3": "MRLB SPCBLND RED BOX",
-        "Position 4": "MRLB 72 NM BX FIL",
-        "Position 5": "MRLB GOLD KING BOX",
-        "Position 6": "MRLB GOLD KING BOX",
-        "Position 7": "MRLB SPCBLND GOLD BOX",
-        "Position 8": "MRLB SILBER KING BOX",
-        "Position 9": "MRLB SPCBLND BLACK BOX",
-        "Position 10": "MRLB SPCBLND BLCK MNTH BX"
-    }
+    "shelf" : [
+        "1",
+        "2",
+        "3"
+    ],
+    "position" : [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+    ],
+    "product" : [
+        {
+            "Prd1": [
+                "MRLB KING BOX",
+                "MRLB KING BOX",
+                "MRLB SPCBLND RED BOX",
+                "MRLB 72 NM BX FIL",
+                "MRLB GOLD KING BOX",
+                "MRLB GOLD KING BOX",
+                "MRLB SPCBLND GOLD BOX",
+                "MRLB SILVER KING BOX",
+                "MRLB SPCBLND BLACK BOX",
+                "MRLB SPCBLND BLCK MNTH BX"
+            ],
+            "Prd2": [
+                "MRLB 100S BOX",
+                "MRLB 100S BOX",
+                "MRLB SPCBLND 100 RED BOX",
+                "MRLB GOLD 72 NM BX FIL",
+                "MRLB GOLD 100S BOX",
+                "MRLB GOLD 100S BOX",
+                "MRLB SPCBLND 100 GLD BX",
+                "MRLB SILVER 100S BOX",
+                "MRLB GOLD KSF MNTHL BX",
+                "MRLB SPCBLND BLK MN100 BX"
+            ],
+            "Prd3": [
+                "NWPRT MENTHOL BOX",
+                "NWPRT MNTHL BOX 100S",
+                "CAMEL BOX",
+                "CAMEL 99 BOX",
+                "CAMEL BLUE BOX",
+                "CAMEL CRUSH",
+                "CAMEL CRUSH RG 85 BOX MEN",
+                "WINSTON GOLD BOX",
+                "KOOL KING BOX",
+                "AMERSPIRIT MLW YELLOW"
+            ]
+        }
+    ]
 }
