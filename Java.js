@@ -34,15 +34,21 @@ var targetId = "board-container";
 
 var boardContainer = document.getElementById("board-container");
 
+var s1,
+  s2,
+  s3 = "";
+
+var bay = s1,
+  s2,
+  s3;
+
 for (s in obj.shelf) {
-  var shelf = document.createElement("div");
-  shelf.className = "shelf";
-  x += shelf + obj.shelf[s];
+  x += obj.shelf[s];
   for (p in obj1.pos) {
     x += obj1.pos[p];
   }
-  for (pr in obj2.product) {
-    x += obj2.product[pr];
+  for (pr in obj2.product.prd1) {
+    x += obj2.product.prd1[pr];
   }
 }
 
