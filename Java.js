@@ -50,7 +50,10 @@ function displaycontents(stuff) {
 
       console.log(`count for ${value.contents} set to ${count}`);
 
-      if (count > 0) shelfItem.className = "notfull";
+      if (count < parseInt(initialcount)) {
+      //  shelfItem.className = "notfull";
+      shelfItem.style.backgroundColor = "blue";
+      }
     };
     button.className = "fas fa-minus";
 

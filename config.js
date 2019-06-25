@@ -1,3 +1,3 @@
 // Values that never change
-localStorage.setItem("Min", "2")
+localStorage.setItem(save, "2")
 localStorage.setItem("Max", "10")
