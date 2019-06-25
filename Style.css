@@ -1,9 +1,9 @@
 .shelf {
   display: flex;
   justify-content: center;
+  width: 95%
 }
 .shelf > div {
-  font-size: 4vh;
   background: goldenrod;
   margin: 0.1em;
   padding: 0.3em;
@@ -15,4 +15,8 @@
 }
 .icount {
   float: right;
+}
+
+html {
+  width: 95%
 }
