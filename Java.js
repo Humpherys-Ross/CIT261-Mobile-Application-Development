@@ -33,13 +33,15 @@ function displaycontents(stuff) {
 
   productArray.forEach((value, i, a) => {
     var shelfItem = document.createElement("div");
-    shelfItem.className = "shelf";
     var initialcount = "10";
-    shelfItem.setAttribute("count", initialcount);
     var icount = document.createElement("div");
+    var button = document.createElement("button");
+
+    shelfItem.className = "shelf";
+    shelfItem.setAttribute("count", initialcount);
     icount.id = "icount" + value.id;
     icount.innerHTML = initialcount;
-    var button = document.createElement("button");
+
     button.onclick = () => {
       console.log(`clicked button ${value.contents}`);
 
@@ -51,8 +53,9 @@ function displaycontents(stuff) {
       console.log(`count for ${value.contents} set to ${count}`);
 
       if (count < parseInt(initialcount)) {
-      //  shelfItem.className = "notfull";
-      shelfItem.style.backgroundColor = "blue";
+        //  shelfItem.className = "notfull";
+        shelfItem.style.backgroundColor = "blue";
+        shelfItem.style.borderRadius = "25px";
       }
     };
     button.className = "fas fa-minus";

@@ -9,6 +9,7 @@
   padding: 0.3em;
   border-radius: 3px;
   flex: 1;
+  text-align: center;
 }
 html {
   width: 95%;
