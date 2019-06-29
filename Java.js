@@ -69,6 +69,11 @@ function displaycontents(stuff) {
     boardContainer.appendChild(shelfItem);
   });
 }
+
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("This application allows you to add/remove shalves and positions, product name, and allocation. When you click the Minus button, it shows you the number of each product needed to fill the position up.", 10, 50);
 // for (var i = 1; i < productArray.length; i++) {
 //   var div = document.getElementById("Pos" + i);
 //   div.innerHTML = ProductArray[i];
