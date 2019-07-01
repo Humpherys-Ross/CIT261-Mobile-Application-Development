@@ -32,5 +32,5 @@ button {
   }
 }
 .icount {
-  transform: translate(50px, 100px);
+  transform: translate(0px, 50px);
 }
