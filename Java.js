@@ -53,9 +53,9 @@ function displaycontents(stuff) {
       console.log(`count for ${value.contents} set to ${count}`);
 
       if (count < parseInt(initialcount)) {
-        //  shelfItem.className = "notfull";
-        shelfItem.style.backgroundColor = "blue";
-        shelfItem.style.borderRadius = "25px";
+        shelfItem.className = "icount";
+        // icount.style.backgroundColor = "blue";
+        // icount.style.transform = "1";
       }
     };
     button.className = "fas fa-minus";
@@ -73,7 +73,11 @@ function displaycontents(stuff) {
 var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 ctx.font = "30px Arial";
-ctx.fillText("This application allows you to add/remove shalves and positions, product name, and allocation. When you click the Minus button, it shows you the number of each product needed to fill the position up.", 10, 50);
+ctx.fillText(
+  "This application allows you to add/remove shalves and positions, product name, and allocation. When you click the Minus button, it shows you the number of each product needed to fill the position up.",
+  10,
+  50
+);
 // for (var i = 1; i < productArray.length; i++) {
 //   var div = document.getElementById("Pos" + i);
 //   div.innerHTML = ProductArray[i];
